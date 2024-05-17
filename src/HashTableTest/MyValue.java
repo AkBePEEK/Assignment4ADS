@@ -1,7 +1,7 @@
 package HashTableTest;
 
 public class MyValue {
-    private int value;
+    private final int value;
 
     public MyValue(int value) {
         this.value = value;
