@@ -50,5 +50,6 @@ public class Main {
         System.out.println(hashTable1);
 
         MyTestingClass.testing();
+
     }
 }

@@ -1,7 +1,7 @@
 package HashTableTest;
 
 public class MyKey {
-    private final int id;
+    private int id;
 
     public MyKey(int id) {
         this.id = id;

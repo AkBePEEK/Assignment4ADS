@@ -135,8 +135,8 @@ public class MyHashTable<K,V> {
         chainArray = createArray(chainArray.length * 2);
         reIndex(oldChain);
     }
-    private void reIndex(HashNode<K, V>[] oldChain){
-        for (HashNode<K, V> node : oldChain) {
+    private void reIndex(HashNode<K, V>[] oldchain){
+        for (HashNode<K, V> node : oldchain) {
             while (node != null) {
                 put(node.key, node.value);
                 node = node.next;
